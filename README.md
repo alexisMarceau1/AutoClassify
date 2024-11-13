@@ -76,7 +76,9 @@ This project is divided into two main phases:
 1. **Text Outperforms Images**:  
    - TF-IDF provided the highest classification accuracy, indicating text features are more discriminative for this dataset.
      ![tf-idf](images/tf-idf.png) <!-- Placeholder image for context -->
-     ![matrix-tf](images/matrix-tf.png) <!-- Placeholder image for context -->    
+     ![matrix-tf](images/matrix-tf.png) <!-- Placeholder image for context -->
+     > **Note**: The confusion matrix shows strong performance for **"Watches"** and **"Home Furnishing"**, while categories like **"Beauty and Personal Care"** exhibit overlaps due to textual similarities.
+    
 
 2. **Challenges with Visual Features**:  
    - While VGG-16 showed promise, categories with subtle visual differences (e.g., "Beauty and Personal Care" vs. "Baby Care") remained difficult to separate.
