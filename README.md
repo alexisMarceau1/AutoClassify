@@ -1,6 +1,6 @@
 # 🛍️ **AutoClassifier**: Multi-modal Product Categorization Engine
 
-![Product Classification](images/flip.jpg) <!-- Placeholder image for context -->
+![Product Classification](images/flip.png) <!-- Placeholder image for context -->
 
 ## 🏢 **Project Overview**
 
