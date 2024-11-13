@@ -56,6 +56,9 @@ This project is divided into two main phases:
   - Contextual Models (Word2Vec, BERT, USE): Explored semantic embeddings for improved clustering.  
 
 - **Results**: TF-IDF performed best with an ARI of **0.503**, demonstrating its strength in distinguishing product categories based on textual descriptions.
+![tf-idf](images/tf-idf.png) <!-- Placeholder image for context -->
+     ![matrix-tf](images/matrix-tf.png) <!-- Placeholder image for context -->
+     > **Note**: The confusion matrix shows strong performance for **"Watches"**, **"Home Furnishing"** and **Home Decor.."**, while categories like **"Beauty and Personal Care"** exhibit overlaps due to textual similarities.
 
 ### Phase 2: Image Feature Extraction  
 - **Techniques**:  
@@ -75,11 +78,7 @@ This project is divided into two main phases:
 ### Key Observations:  
 1. **Text Outperforms Images**:  
    - TF-IDF provided the highest classification accuracy, indicating text features are more discriminative for this dataset.
-     ![tf-idf](images/tf-idf.png) <!-- Placeholder image for context -->
-     ![matrix-tf](images/matrix-tf.png) <!-- Placeholder image for context -->
-     > **Note**: The confusion matrix shows strong performance for **"Watches"**, **"Home Furnishing"** and **Home Decor.."**, while categories like **"Beauty and Personal Care"** exhibit overlaps due to textual similarities.
-    
-
+     
 2. **Challenges with Visual Features**:  
    - While VGG-16 showed promise, categories with subtle visual differences (e.g., "Beauty and Personal Care" vs. "Baby Care") remained difficult to separate.
 
