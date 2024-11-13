@@ -58,7 +58,6 @@ This project is divided into two main phases:
   - Contextual Models (Word2Vec, BERT, USE): Explored semantic embeddings for improved clustering.  
 
 - **Results**: TF-IDF performed best with an ARI of **0.503**, demonstrating its strength in distinguishing product categories based on textual descriptions.
-  ![tf-idf](images/tf-idf.png) <!-- Placeholder image for context -->
   <img src="images/matrix-tf.png" alt="Matrix TF" width="600"/>
      > **Note**: The confusion matrix shows strong performance for **"Watches"**, **"Home Furnishing"** and **Home Decor.."**, while categories like **"Beauty and Personal Care"** exhibit overlaps due to textual similarities.
 
@@ -68,7 +67,6 @@ This project is divided into two main phases:
   - **VGG-16**: Pre-trained CNN used for transfer learning and feature extraction.  
 
 - **Results**: VGG-16 outperformed SIFT (ARI: **0.3876**), showcasing the superiority of deep learning in extracting global visual patterns.
-    ![vgg](images/vgg.png) <!-- Placeholder image for context -->
     <img src="images/vgg_matrix.png" alt="VGG Matrix" width="600"/>
   > **Note**: The confusion matrix highlights strong performance for **"Watches"** and **"Home Decor & Festive Needs"**, while categories like **"Beauty and Personal Care"** show overlaps, likely due to visual similarities between products.
 
