@@ -26,8 +26,10 @@ Efficient product categorization is a critical aspect of managing large-scale e-
 
 - **Main Dataset**: [Flipkart Product Dataset](https://www.kaggle.com/datasets/PromptCloudHQ/flipkart-products)  
 - **Key Variables**:  
-  - **Text**: Product descriptions (e.g., "Baby stroller with ergonomic design").  
-  - **Images**: Product photos in JPEG format.  
+  - **Text**: Product descriptions (e.g., "Baby stroller with ergonomic design").
+      ![image-text](images/image-text.png) <!-- Placeholder image for context -->  
+  - **Images**: Product photos in JPEG format.
+      ![categories](images/categories.png) <!-- Placeholder image for context -->  
 
 ---
 
@@ -56,8 +58,8 @@ This project is divided into two main phases:
   - Contextual Models (Word2Vec, BERT, USE): Explored semantic embeddings for improved clustering.  
 
 - **Results**: TF-IDF performed best with an ARI of **0.503**, demonstrating its strength in distinguishing product categories based on textual descriptions.
-![tf-idf](images/tf-idf.png) <!-- Placeholder image for context -->
-     ![matrix-tf](images/matrix-tf.png) <!-- Placeholder image for context -->
+  ![tf-idf](images/tf-idf.png) <!-- Placeholder image for context -->
+  ![matrix-tf](images/matrix-tf.png) <!-- Placeholder image for context -->
      > **Note**: The confusion matrix shows strong performance for **"Watches"**, **"Home Furnishing"** and **Home Decor.."**, while categories like **"Beauty and Personal Care"** exhibit overlaps due to textual similarities.
 
 ### Phase 2: Image Feature Extraction  
