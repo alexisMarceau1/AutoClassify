@@ -70,7 +70,8 @@ This project is divided into two main phases:
 - **Results**: VGG-16 outperformed SIFT (ARI: **0.3876**), showcasing the superiority of deep learning in extracting global visual patterns.
     ![vgg](images/vgg.png) <!-- Placeholder image for context -->
     <img src="images/vgg_matrix.png" alt="VGG Matrix" width="600"/>
-  > **Note**: ...
+  > **Note**: The confusion matrix highlights strong performance for "Watches" and "Home Decor & Festive Needs", while categories like "Beauty and Personal Care" show overlaps, likely due to visual similarities between products.
+
 
 ### Phase 3: Multi-Modal Fusion  
 - **Technique**: Combined TF-IDF and VGG-16 features through feature concatenation.  
