@@ -68,6 +68,9 @@ This project is divided into two main phases:
   - **VGG-16**: Pre-trained CNN used for transfer learning and feature extraction.  
 
 - **Results**: VGG-16 outperformed SIFT (ARI: **0.3876**), showcasing the superiority of deep learning in extracting global visual patterns.
+    ![vgg](images/vgg.png) <!-- Placeholder image for context -->
+    ![vgg_matrix](images/vgg_matrix.png) <!-- Placeholder image for context -->
+  > **Note**: ...
 
 ### Phase 3: Multi-Modal Fusion  
 - **Technique**: Combined TF-IDF and VGG-16 features through feature concatenation.  
