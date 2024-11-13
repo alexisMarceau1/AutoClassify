@@ -74,7 +74,8 @@ This project is divided into two main phases:
 
 ### Key Observations:  
 1. **Text Outperforms Images**:  
-   - TF-IDF provided the highest classification accuracy, indicating text features are more discriminative for this dataset.  
+   - TF-IDF provided the highest classification accuracy, indicating text features are more discriminative for this dataset.
+     ![tf-idf](images/tf-idf.png) <!-- Placeholder image for context -->  
 
 2. **Challenges with Visual Features**:  
    - While VGG-16 showed promise, categories with subtle visual differences (e.g., "Beauty and Personal Care" vs. "Baby Care") remained difficult to separate.
