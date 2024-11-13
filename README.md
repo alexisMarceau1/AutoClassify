@@ -69,7 +69,7 @@ This project is divided into two main phases:
 
 - **Results**: VGG-16 outperformed SIFT (ARI: **0.3876**), showcasing the superiority of deep learning in extracting global visual patterns.
     ![vgg](images/vgg.png) <!-- Placeholder image for context -->
-    ![vgg_matrix](images/vgg_matrix.png) <!-- Placeholder image for context -->
+    <img src="images/vgg_matrix.png" alt="VGG Matrix" width="300"/>
   > **Note**: ...
 
 ### Phase 3: Multi-Modal Fusion  
