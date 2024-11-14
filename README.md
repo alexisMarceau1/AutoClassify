@@ -58,6 +58,8 @@ This project is divided into two main phases:
   - Contextual Models (Word2Vec, BERT, USE): Explored semantic embeddings for improved clustering.  
 
 - **Results**: TF-IDF performed best with an ARI of **0.503**, demonstrating its strength in distinguishing product categories based on textual descriptions.
+    ![tf-idf](images/tf-idf.png) <!-- Placeholder image for context -->
+    ![matrix-tf](images/matrix-tf.png) <!-- Placeholder image for context -->
 
 ### Phase 2: Image Feature Extraction  
 - **Techniques**:  
