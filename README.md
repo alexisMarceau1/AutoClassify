@@ -60,7 +60,7 @@ This project is divided into two main phases:
 - **Results**: TF-IDF performed best with an ARI of **0.503**, demonstrating its strength in distinguishing product categories based on textual descriptions.
 
 <p align="center">
-  <img src="images/tf-idf.png" alt="TF-IDF Visualization" width="600"/>
+  <img src="images/tf-idf.png" alt="TF-IDF Visualization" width="300"/>
   <img src="images/matrix-tf.png" alt="Confusion Matrix for TF-IDF" width="600"/>
 </p>
 
@@ -73,7 +73,7 @@ This project is divided into two main phases:
 - **Results**: VGG-16 outperformed SIFT (ARI: **0.3876**), showcasing the superiority of deep learning in extracting global visual patterns.
 
 <p align="center">
-  <img src="images/vgg.png" alt="VGG Visualization" width="600"/>
+  <img src="images/vgg.png" alt="VGG Visualization" width="300"/>
   <img src="images/vgg_matrix.png" alt="Confusion Matrix for VGG" width="600"/>
 </p>
 
