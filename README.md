@@ -58,8 +58,12 @@ This project is divided into two main phases:
   - Contextual Models (Word2Vec, BERT, USE): Explored semantic embeddings for improved clustering.  
 
 - **Results**: TF-IDF performed best with an ARI of **0.503**, demonstrating its strength in distinguishing product categories based on textual descriptions.
-    ![tf-idf](images/tf-idf.png) <!-- Placeholder image for context -->
-    ![matrix-tf](images/matrix-tf.png) <!-- Placeholder image for context -->
+
+<p align="center">
+  <img src="images/tf-idf.png" alt="TF-IDF Visualization" width="600"/>
+  <img src="images/matrix-tf.png" alt="Confusion Matrix for TF-IDF" width="600"/>
+</p>
+
 
 ### Phase 2: Image Feature Extraction  
 - **Techniques**:  
@@ -67,6 +71,12 @@ This project is divided into two main phases:
   - **VGG-16**: Pre-trained CNN used for transfer learning and feature extraction.  
 
 - **Results**: VGG-16 outperformed SIFT (ARI: **0.3876**), showcasing the superiority of deep learning in extracting global visual patterns.
+
+<p align="center">
+  <img src="images/vgg.png" alt="VGG Visualization" width="600"/>
+  <img src="images/vgg_matrix.png" alt="Confusion Matrix for VGG" width="600"/>
+</p>
+
 
 
 ### Phase 3: Multi-Modal Fusion  
